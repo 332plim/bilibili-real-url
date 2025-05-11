@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "332plim-bilibili-re-97"
-          entrypoint: ".output/server/index.ts"
+          entrypoint: "server/index.ts"
           root: ".output"
           
           
